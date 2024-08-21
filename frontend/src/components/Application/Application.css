@@ -1,0 +1,201 @@
+.appication-body{
+  margin-top: 6rem;
+}
+  
+  .progress-container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .progressbar-appliction {
+    width: 0%;
+    height: 10px;
+    background-color: #007bff;
+    clip: rect(0, 0px, 25px, 0px);
+    border-radius: 5px;
+  }
+  
+  fieldset {
+    display: none;
+  }
+  
+  fieldset[style='display: block'] {
+    display: block;
+  }
+  
+  
+  input {
+    margin-bottom: 10px;
+  }
+  
+  button {
+    margin-top: 30px;
+    
+  }
+  
+  /* Styling for buttons */
+  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  .app-modal-footer{
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  /* ________________________   step 3______________________________ */
+  .upload-container {
+    height: auto;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 30px rgba(0, 0, 0, .2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    gap: 5px;
+    background-color: rgba(0, 110, 255, 0.041);
+  }
+  .file-container-3step{
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #F3F6F9; 
+  }
+  
+  .fileuploader-header {
+    flex: 1;
+    width: 100%;
+    border: 2px dashed royalblue;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .fileuploader-header svg {
+    height: 100px;
+  }
+  
+  .fileuploader-header p {
+    text-align: center;
+    color: black;
+  }
+  
+  .fileuploader-footer {
+    background-color: rgba(0, 110, 255, 0.075);
+    width: 100%;
+    height: 40px;
+    padding: 8px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: black;
+    border: none;
+  }
+  
+  .fileuploader-footer svg {
+    height: 130%;
+    fill: royalblue;
+    background-color: rgba(70, 66, 66, 0.103);
+    border-radius: 50%;
+    padding: 2px;
+    cursor: pointer;
+    box-shadow: 0 2px 30px rgba(0, 0, 0, 0.205);
+  }
+  
+  .fileuploader-footer p {
+    flex: 1;
+    text-align: center;
+  }
+  
+  #file {
+    display: none;
+  }
+  /* --------------------- step2 ------------------------ */
+  /* styles.css */
+  
+  .form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #F3F6F9;
+  }
+  
+  .form-container h2 {
+    text-align: center;
+    color: #007bff;
+  }
+  
+  .form-container label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .form-container input[type="text"],
+  .form-container input[type="email"],
+  .form-container input[type="tel"],
+  .form-container textarea,
+  .form-container select,
+  .form-container input[type="date"],
+  .form-container input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  }
+  
+  .form-container input[type="file"] {
+    margin-bottom: 20px;
+  }
+  
+  .form-container select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 8 8"><path fill="#333" d="M4 5l3-3H1z"/></svg>');
+    background-repeat: no-repeat;
+    background-position-x: 98%;
+    background-position-y: center;
+  }
+  
+  .form-container textarea {
+    resize: vertical;
+  }
+  
+  .form-container button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .form-container button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  

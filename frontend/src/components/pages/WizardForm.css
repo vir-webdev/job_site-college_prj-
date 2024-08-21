@@ -1,0 +1,106 @@
+
+
+
+/* wizard form */
+
+.wizard-bg{
+    background-image: linear-gradient(136deg, rgb(239, 243, 239) 0%, rgb(219, 242, 225) 50%, rgb(204 255 208) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+
+}
+.wizard-box{
+    background: white;
+    width: 60%;
+    height: 85vh;
+    box-shadow: 0 1px 10px rgba(0,0,0,0.45), 0 5px 22px rgba(0,0,0,0.2);
+}
+
+/* stepper progress bar  */
+
+.stepper-container .stepper-bottom-progressbar{
+    width: 100%;
+    height: 2px;
+    background-color: rgb(205 198 198 / 51%);
+    margin-bottom: 10px;
+}
+
+.stepper-container .stepper-bottom-progressbar .stepper-progress{
+    width: 20%;
+    height: 100% ;
+    background-image: linear-gradient(136deg, rgb(0 255 9) 0%, rgb(64 205 102) 50%, rgb(48 171 59) 100%);
+}
+
+/* form-content-body */
+
+.form-content-body{
+   
+    margin-left: 4rem;
+    margin-right: 4rem;
+    height: 38rem;
+
+}
+
+/* button  */
+
+.wizard-button .wizard-nextbutton {
+    width: 7rem;
+    border: none;
+    background-image: linear-gradient(136deg, rgb(71 239 78) 0%, rgb(110 255 149) 50%, rgb(122 245 133) 100%);
+    float: inline-end;
+    border-radius: 7px;
+    height: 35px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wizard-button .wizard-nextbutton .finishtext{
+    color: white;
+}
+
+.wizard-button .wizard-nextbutton i{
+    margin-left: 13px;
+}
+
+.wizard-button .wizard-previousbutton{
+    width: 7rem;
+    border: none;
+    border-radius: 7px;
+    background-color: transparent;
+    height: 35px;
+    margin-left: -20px;
+    color: rgb(71 239 78);
+}
+
+.wizard-button .wizard-previousbutton i{
+    margin-right: 10px;
+}
+
+/* pop up box */
+.wizard-popup-content{
+    height:17rem;
+}
+.wizard-popup-header{
+    border-bottom: none;
+}
+.wizard-popup-body{
+   align-self: center;
+   margin-top: 3rem;
+}
+.wizard-popup-footer{
+    border-top: none;
+    justify-content: center;
+}
+.wizard-popup-footer .popup-button{
+    width: 10rem;
+    background-color: rgb(71 239 78);
+    border: none;
+}
+
+.wizard-popup-footer .popup-button:hover{
+    box-shadow: 1px 2px 4px 2px rgba(0,0,0,0.2);
+}

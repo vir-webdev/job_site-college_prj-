@@ -1,0 +1,39 @@
+.input-container {
+    position: relative;
+    margin-top: 55px ;
+    margin-bottom: 25px;
+    width: 100%;
+  }
+  
+  .input-container input[type="date"] {
+    font-size: 17px;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #938f8f;
+    padding: 5px 0;
+    background-color: transparent;
+    outline: none;
+  }
+
+  .input-container input[type="date"]:hover {
+    border-bottom: 2px solid black;
+    color: darkgreen;
+  }
+
+  .input-container input[type="date"]:focus {
+    border-bottom: 2px solid darkgreen;
+  }
+  
+  .input-container .label {
+    position: absolute;
+    top: -30px;
+    left: 0;
+    color: rgb(103, 100, 100);
+    transition: all 0.3s ease;
+    pointer-events: none;
+  }
+
+.label:hover {
+    color: darkgreen ;
+  }
+  

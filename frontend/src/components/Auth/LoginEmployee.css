@@ -1,0 +1,161 @@
+
+.login-wrap {
+  min-height: 100vh;
+  position: relative;
+  background: url('../../img/o/Dollarphotoclub_81170161.jpg') no-repeat center;
+  background-size: cover;
+}
+
+.login-html {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: rgba(35, 114, 182, 0.942);
+}
+
+.login-html .container {
+  width: 340px;
+  height: 480px;
+  background: transparent;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 7px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 1rem;
+}
+
+.container h2 {
+  color: white;
+}
+
+.container h2 i {
+  padding-left: 10px;
+}
+
+.text span {
+  background: white;
+  color: #0A66C3;
+  padding: 0px 7px 0px 7px;
+  border-radius: 5px;
+}
+
+.text h1 {
+  color: #f3eeec;
+}
+
+.text p {
+  font-size: .8rem;
+  padding-top: 0.3rem;
+  color: white;
+}
+
+.input {
+  position: relative;
+  width: 100%;
+  height: 60px;
+  margin-bottom: 0.7em;
+}
+
+.your-input input {
+  width: 100%;
+  height: 45px;
+  padding-left: 20px;
+  outline: none;
+  border: none;
+  border-radius: 30px;
+  transition: .2s;
+  font-size: large;
+}
+
+.abcd::placeholder {
+  padding-left: 15px;
+}
+
+.your-input label {
+  position: absolute;
+  top: 30%;
+  left: 10px;
+  font-size: 1.1rem;
+  color: #8c8c8c;
+  transition: .2s;
+}
+
+.input input:focus~label,
+.input input:valid~label {
+  top: 10%;
+  font-size: .8rem;
+  color: white;
+}
+
+.input input:focus {
+  border-width: 2px;
+  border-color: white;
+}
+
+.forgot-password-link {
+  display: flex;
+  margin-left: 6px;
+  margin-top: -30px;
+  margin-bottom: -16px;
+  color: white;
+  transition: .3s;
+}
+
+.forgot-password-link:hover {
+  color: rgba(0, 0, 0, 0.942);;
+}
+
+.js-login-sign-btn {
+  padding: 10px 15px;
+  height: 45px;
+  background: white;
+  outline: 3px white solid;
+  outline-offset: -3px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  border-radius: 30px;
+  transition: 400ms;
+  text-align: center;
+  align-items: center;
+}
+
+.js-login-sign-btn .text {
+  color: #0A66C3;
+  font-weight: 700;
+  font-size: 1em;
+  transition: 400ms;
+}
+
+.js-login-sign-btn:hover {
+  background-color: transparent;
+}
+
+.js-login-sign-btn:hover .text {
+  color: white;
+}
+
+
+.join-link {
+  text-decoration: none;
+  font-weight: bolder;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.join-now {
+  color: white;
+  margin-left: 5px;
+  transition: .3s;
+
+}
+
+.join-now:hover {
+  color: rgba(0, 0, 0, 0.3);
+}

@@ -1,0 +1,277 @@
+
+.main-homepage p{
+    margin-bottom: 0;
+}
+/* body bgcolor */
+.Home-body {
+    background-color: #faf9f6;
+}
+
+.main-homepage {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5rem;
+}
+
+.left-main {
+    width: 350px;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.left-main-1 {
+    height: 300px;
+    margin-bottom: 10px;
+    border: 1px solid rgba(199, 192, 192, 0.5);
+    border-radius: 10px;
+    background-color: white;
+}
+
+.left-main-img {
+    text-align: center;
+}
+
+.banner {
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    aspect-ratio: 3/1;
+    object-fit: cover;
+}
+
+.my-picture {
+    width: 30%;
+    border: 3px white solid;
+    border-radius: 50%;
+    margin-top: -38px;
+}
+
+.about {
+    background-color: white;
+    border-bottom: 1px solid rgba(199, 192, 192, 0.5);
+}
+
+.about h5 {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.about p {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.analytics {
+    border-bottom: 1px solid rgba(199, 192, 192, 0.5);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.analytics h5 {
+    margin-top: 10px;
+    margin-bottom: 0;
+    margin-left: 4px;
+}
+
+.analytics p {
+    font-size: 12px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 4px;
+}
+
+.left-main-2 {
+    height: 200px;
+    border: 1px solid rgba(199, 192, 192, 0.5);
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+.page {
+    padding-left: 10px;
+    padding-right: 10px;
+    border-bottom: 1px solid rgba(199, 192, 192, 0.5);
+}
+
+.mildstrings {
+    height: 50px;
+    padding-top: 15px;
+}
+
+.page h5 {
+    margin-top: 5px;
+}
+
+.page-notification {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+    color: grey;
+    margin-bottom: 10px;
+}
+
+.my-item {
+    font-size: 13px;
+    font-weight: 600;
+    padding-top: 6px;
+    padding-left: 10px;
+}
+
+.left-main-2 p {
+    font-size: 13px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 6px;
+    margin-bottom: 0;
+}
+
+.left-main-3 {
+    height: 540px;
+    background-color: white;
+    border: 1px solid rgba(199, 192, 192, 0.5);
+    border-radius: 10px;
+    padding: 15px 10px;
+    position: sticky;
+    top: 80px;
+
+}
+
+.left-main-3 h6 {
+    color: blue;
+}
+
+.events {
+    height: 18px;
+    margin-right: 5px;
+}
+
+.events-p {
+    font-size: 12px;
+}
+
+.event-flex {
+    display: flex;
+    align-items: center;
+    opacity: 0.7;
+}
+
+.event-flex:hover {
+    opacity: 1;
+}
+
+.same {
+    margin-top: 10px;
+    font-size: 14px;
+    opacity: 0.7;
+}
+
+.same:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.discover {
+    margin-top: 10px;
+    padding-top: 10px;
+    text-align: center;
+    border-top: 1px solid rgba(199, 192, 192, 0.5);
+}
+
+/* middle part css */
+
+
+.middle-main {
+    flex: 1;
+}
+
+.middle-pic {
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.middle-main-1 {
+    border-radius: 20px;
+    background-color: white;
+    margin-bottom: 10px;
+    border: 1px solid #e1dbdb;
+}
+
+.post-1 {
+    display: flex;
+    padding: 10px 20px;
+}
+
+.post {
+    flex: 1;
+    border: 1px solid rgba(199, 192, 192, 0.5);
+    background-color: transparent;
+    border-radius: 40px;
+}
+
+.post::placeholder {
+    padding-left: 10px;
+    color: black;
+}
+
+.upload {
+    height: 25px;
+    margin: 12px;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+}
+.input p{
+    margin-bottom: 0;
+}
+
+.linked-input {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.post-about {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+
+}
+.post-about-detailes{
+    width: 100%;
+}
+
+.post-image {
+    width: 100%;
+    margin-top: 10px;
+    object-fit: contain;
+}
+
+.middle-main-2 {
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 5px 12px;
+    border: 1px solid #e1dbdb;
+}
+
+.name {
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 2px;
+}
+
+.name-about {
+    font-size: 13px;
+    font-weight: 400;
+    color: grey;
+}

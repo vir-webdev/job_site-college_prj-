@@ -1,0 +1,46 @@
+.Job_detail_body{
+    background-color:  #F3F6F9;
+}
+.left_Side_jobDeatils_box{
+    width: 42rem;
+    background: white;
+    height: fit-content;
+    padding: 2.5rem;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+.jobditails_second_info{
+    font-size: 0.8rem;
+    line-height: 1.25rem;
+    color: black;
+    font-weight: 350;
+}
+.jobditails_second_info_2{
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    font-weight: 600;
+    color: black;
+}
+.jodetails_3_button{
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+    color: rgb(255 255 255);
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    background-color: rgb(0 0 0);
+    border-radius: 9999px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    display: inline-flex;
+}
+.jobdetail_4_5_header{
+    font-weight: 600;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    color: black;
+    margin-bottom: 0;
+}
